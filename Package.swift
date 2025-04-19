@@ -5,6 +5,7 @@ let package = Package(
     name: "ios-voice-processor",
     platforms: [
         .iOS(.v13)
+        .visionOS(.v2)
     ],
     products: [
         .library(
