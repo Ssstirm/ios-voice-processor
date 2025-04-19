@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "ios-voice-processor",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v18)
         .visionOS(.v2)
     ],
     products: [
